@@ -1,0 +1,24 @@
+{
+  "name": "design-patterns-exploration",
+  "version": "1.0.0",
+  "description": "Learning design patterns by using them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skitterm/design-patterns-exploration.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Design",
+    "Patterns"
+  ],
+  "author": "Steven Kitterman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skitterm/design-patterns-exploration/issues"
+  },
+  "homepage": "https://github.com/skitterm/design-patterns-exploration#readme"
+}
