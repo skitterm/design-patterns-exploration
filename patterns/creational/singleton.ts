@@ -1,9 +1,8 @@
 export default class Session {
-  static instance;
+  private static instance: Session;
+  private username: string;
 
-  username;
-
-  static Instance(name) {
+  public static Instance(name: string) {
     if (!Session.instance) {
       Session.instance = new Session(name);
     }
@@ -11,7 +10,7 @@ export default class Session {
     return Session.instance;
   }
 
-  constructor(name) {
+  constructor(name: string) {
     this.username = name;
   }
 
