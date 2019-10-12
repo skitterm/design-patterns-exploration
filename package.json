@@ -4,7 +4,7 @@
   "description": "Learning design patterns by using them",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/skitterm/design-patterns-exploration/issues"
   },
-  "homepage": "https://github.com/skitterm/design-patterns-exploration#readme"
+  "homepage": "https://github.com/skitterm/design-patterns-exploration#readme",
+  "dependencies": {
+    "@types/node": "^12.7.12"
+  }
 }
