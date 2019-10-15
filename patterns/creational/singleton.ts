@@ -1,20 +1,24 @@
 export default class Session {
   private static instance: Session;
-  private username: string;
+  private username: string = "";
 
-  public static Instance(name: string) {
+  public static getInstance(): Session {
     if (!Session.instance) {
-      Session.instance = new Session(name);
+      Session.instance = new Session();
     }
 
     return Session.instance;
   }
 
-  constructor(name: string) {
-    this.username = name;
+  private constructor() {
+    //
   }
 
-  getName() {
+  public setUsername(username: string) {
+    this.username = username;
+  }
+
+  public getUsername(): string {
     return this.username;
   }
 }
