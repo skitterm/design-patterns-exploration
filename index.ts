@@ -1,4 +1,4 @@
-import Session from "./patterns/creational/singleton";
+import Session from "./patterns/creational/singleton/singleton";
 
 // get the session twice
 const sessionOne = Session.getInstance();
